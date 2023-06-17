@@ -2,14 +2,7 @@ from langchain.tools import BaseTool
 from langchain.agents import AgentType
 from typing import Optional, Type
 from pydantic import BaseModel, Field
-
-import yfinance as yf
-
-
-def get_stock_price(symbol):
-    ticker = yf.Ticker(symbol)
-    todays_data = ticker.history(period='1d')
-    return round(todays_data['Close'][0], 2)
+from yf_tool import get_stock_price, calculate_performance, get_price_change_percent, get_best_performing
 
 
 class StockPriceCheckInput(BaseModel):
