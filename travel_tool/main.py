@@ -1,5 +1,5 @@
 # Tools as OpenAI Functions
-# Make sure langchain to 0.0.200
+# Make sure langchain version after 0.0.202
 # pip install --upgrade --force-reinstall langchain
 
 import json

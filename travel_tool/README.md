@@ -13,10 +13,10 @@ The script uses OpenAI's GPT-3.5-turbo model to understand the user's request an
 Ensure you have Python 3 and pip installed. The script also requires the following Python packages:
 
 - `openai`
-- `langchain` version `0.0.200`. You can install it with this command:
+- `langchain` version `0.0.202`. You can install it with this command:
 
   ```bash
-  pip install --upgrade --force-reinstall langchain==0.0.200
+  pip install --upgrade --force-reinstall langchain==0.0.202
   ```
 
 ## Usage

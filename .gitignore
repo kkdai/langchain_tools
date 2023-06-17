@@ -132,3 +132,5 @@ index/
 chroma-collections.parquet
 chroma-embeddings.parquet
 .vscode/
+poetry.lock
+pyproject.toml

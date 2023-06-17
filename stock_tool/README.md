@@ -11,10 +11,10 @@ This script takes a user's input, interprets it using OpenAI's GPT-3.5-turbo mod
 Make sure you have Python 3 and pip installed on your machine. This script also requires these Python packages:
 
 - `openai`
-- `langchain` version `0.0.200`. Install it with:
+- `langchain` version after `0.0.202`. Install it with:
 
   ```bash
-  pip install --upgrade --force-reinstall langchain==0.0.200
+  pip install --upgrade --force-reinstall langchain
   ```
 
 ## Usage
