@@ -2,6 +2,8 @@
 
 This repository contains a Python script that uses the OpenAI's GPT-3.5-turbo model and Langchain's toolkit to process file management commands.
 
+[![asciicast](https://asciinema.org/a/aXAxZoeNFTaUq7KxAsCCKLocN.svg)](https://asciinema.org/a/aXAxZoeNFTaUq7KxAsCCKLocN)
+
 ## Description
 
 The script takes user input for various file management tasks and uses Langchain's file management tools to execute these tasks. It supports a variety of operations, such as moving, copying, reading, writing, deleting files, and listing directories.
