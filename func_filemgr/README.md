@@ -2,7 +2,7 @@
 
 This repository contains a Python script that uses the OpenAI's GPT-3.5-turbo model and Langchain's toolkit to process file management commands.
 
-[![asciicast](https://asciinema.org/a/aXAxZoeNFTaUq7KxAsCCKLocN.svg)](https://asciinema.org/a/aXAxZoeNFTaUq7KxAsCCKLocN)
+![](./img/demo.gif)
 
 ## Description
 

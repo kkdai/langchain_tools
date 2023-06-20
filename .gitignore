@@ -134,3 +134,4 @@ chroma-embeddings.parquet
 .vscode/
 poetry.lock
 pyproject.toml
+func_filemgr/.DS_Store
