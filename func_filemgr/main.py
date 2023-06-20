@@ -25,7 +25,7 @@ def interact():
     open_ai_agent = initialize_agent(tools,
                                      model,
                                      agent=AgentType.OPENAI_FUNCTIONS,
-                                     verbose=False)
+                                     verbose=True)
 
     while True:
         try:
