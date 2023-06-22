@@ -3,7 +3,6 @@
 # pip install --upgrade --force-reinstall langchain
 
 import json
-from langchain.tools import MoveFileTool, format_tool_to_openai_function
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import AgentType
 from langchain.agents import initialize_agent, Tool
@@ -11,10 +10,13 @@ from langchain.schema import HumanMessage
 from poi import TravelPOITool
 from ticket import TravelTicketTool
 from exp import TravelExpTool
+from weather import WeatherDataTool
+from product import ProductTool
 
 model = ChatOpenAI(model="gpt-3.5-turbo-0613")
 
-tools = [TravelPOITool(), TravelTicketTool(), TravelExpTool()]
+tools = [TravelPOITool(), TravelTicketTool(),
+         TravelExpTool(), WeatherDataTool(), ProductTool()]
 
 open_ai_agent = initialize_agent(tools,
                                  model,
